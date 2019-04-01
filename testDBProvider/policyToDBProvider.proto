@@ -1,0 +1,17 @@
+syntax = "proto3";
+package policymsgpolicytodbprovider; 
+
+message MsgFromPolicyToDBProvider 
+{ 
+	uint64  user_id = 10;
+	uint64  device_id = 20;
+	uint64  product_id = 30;
+	uint64  event_id = 40;
+	uint64  network_id = 50;
+	uint64  map_id = 60;
+	uint32  msg_id = 70;
+	string  session_id = 80;
+	string  traffic_id = 90;	
+	uint64  device_activity_id = 100;
+	uint64 	enterprise_id = 110;
+}

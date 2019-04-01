@@ -1,0 +1,7 @@
+
+rm -rf *.cc test
+
+protoc --cpp_out=./ *.proto
+
+
+g++ *.cpp *.cc -lprotobuf -o test -lpthread

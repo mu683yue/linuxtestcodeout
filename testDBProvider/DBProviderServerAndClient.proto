@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.policy.msgdbproviderserverandclient; 
+
+message MsgDBProviderServerClient
+{ 
+	uint32	capability = 10;
+	uint32	keepalive = 20;
+	uint32	dataport = 30;	
+}
